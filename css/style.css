@@ -70,7 +70,7 @@ h3 {
   font-style: normal;
 }
 
-.header-contacts-list,
+.header-contacts-list
 /*.header-contacts-items,
 .header-contacts-link*/ {
   font-weight: 400;
@@ -185,8 +185,5 @@ button:focus {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
-  color: ##434455;
-}
-
-.footer {
+  color: #434455;
 }
