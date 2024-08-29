@@ -2,8 +2,8 @@ body {
   width: 1440px;
   height: 3300px;
   font-family: "Roboto", sans-serif;
-  color: #2e2f42; /*#434455*/
-  background: #ffffff;
+  color: #434455;
+  background-color: #ffffff;
   /*font-weight: 400;
   font-size: 16px;
   line-height: 150%;
@@ -26,6 +26,8 @@ h2 {
 h3 {
   color: #434455;
 }
+
+/*Header*/
 
 .header {
   font-family: "Raleway", sans-serif;
@@ -81,6 +83,7 @@ h3 {
   color: #434455;
 }
 
+/*Section 1 - Hero section*/
 .hero-image {
   font-weight: 700;
   font-size: 56px;
@@ -104,13 +107,14 @@ button {
   width: 169px;
   height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);*/
-  background: #4d5ae5;
+  background-color: #4d5ae5;
 }
 button:hover,
 button:focus {
-  background: #404bbf;
+  background-color: #404bbf;
 }
 
+/*Section 2 - Fauter section*/
 .feauter {
   display: none;
 }
@@ -133,25 +137,27 @@ button:focus {
   color: #434455;
 }
 
+/*Section 3 - Our Team section*/
 .team {
-  font-family: var(--font-family);
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  background-color: #f4f4fd;
   text-transform: capitalize;
 }
 
 .team-list {
-  font-family: var(--font-family);
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
+  background-color: #ffffff;
 }
 
 .team-text {
@@ -163,17 +169,18 @@ button:focus {
   color: #434455;
 }
 
+/*Section 4 - Portfolio section*/
 .portfolio {
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 
 .portfolio-list {
-  font-family: var(--font-family);
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
@@ -189,6 +196,7 @@ button:focus {
   color: #434455;
 }
 
+/*Footer section*/
 .footer {
   width: 1440px;
   height: 312px;
@@ -205,7 +213,6 @@ button:focus {
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
   color: #4d5ae5;
 }
 
