@@ -99,10 +99,8 @@ h3 {
   cursor: pointer;
   background-color: #4d5ae5;
 }
-.order-button,
-button:hover,
-.order-button,
-button:focus {
+.order-button:hover,
+.order-button:focus {
   background-color: #404bbf;
 }
 
