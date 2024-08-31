@@ -1,6 +1,4 @@
 body {
-  width: 1440px;
-  height: 3300px;
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
@@ -27,19 +25,15 @@ h3 {
   color: #434455;
 }
 
-/*Header*/
+/*=======================Header=========================*/
 
 .header {
   font-family: "Raleway", sans-serif;
-  width: 1440px;
-  height: 72px;
   background: #ffffff;
 }
 
 .header-logo {
   font-family: "Raleway", sans-serif;
-  width: 115px;
-  height: 24px;
   font-weight: 700;
   font-size: 18px;
   line-height: 117%;
@@ -48,13 +42,12 @@ h3 {
   color: #4d5ae5;
 }
 
-.header-logo-part {
+.logo-part {
   color: #2e2f42;
 }
 
-.header-nav-list {
-  width: 261px;
-  height: 24px;
+.nav-list,
+.nav-item {
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
@@ -62,8 +55,12 @@ h3 {
   color: #2e2f42;
 }
 
-.header-nav-list .link:hover,
-.header-nav-list .link:focus,
+.nav-link {
+  color: #2e2f42;
+}
+
+.nav-list .link:hover,
+.nav-list .link:focus,
 .header-contacts-list .link:hover,
 .header-contacts-list .link:focus {
   color: #404bbf;
@@ -73,9 +70,9 @@ h3 {
   font-style: normal;
 }
 
-.header-contacts-list
-/*.header-contacts-items,
-.header-contacts-link*/ {
+.header-contacts-list,
+.header-contacts-items,
+.contacts-link {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
@@ -83,18 +80,19 @@ h3 {
   color: #434455;
 }
 
-/*Section 1 - Hero section*/
-.hero-image {
+/*=====================Section 1 - Hero==========================*/
+.hero {
   font-weight: 700;
+  background-color: #2e2f42;
+}
+
+.hero-title {
   font-size: 56px;
   line-height: 107%;
   letter-spacing: 0.02em;
   text-align: center;
-  width: 1440px;
-  height: 600px;
-  background-color: #2e2f42;
 }
-button {
+.order-button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   border-radius: 4px;
@@ -103,23 +101,30 @@ button {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
-  /*padding: 16px 32px;
-  width: 169px;
-  height: 56px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);*/
   background-color: #4d5ae5;
 }
+.order-button,
 button:hover,
+.order-button,
 button:focus {
   background-color: #404bbf;
 }
 
-/*Section 2 - Fauter section*/
+/*====================Section 2 - Fauter===================*/
 .feauter {
   display: none;
 }
 
 .feauter-list {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.feauter-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
@@ -137,19 +142,22 @@ button:focus {
   color: #434455;
 }
 
-/*Section 3 - Our Team section*/
+/*=====================Section 3 - Our Team======================*/
 .team {
+  background-color: #f4f4fd;
+}
+
+.team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  background-color: #f4f4fd;
   text-transform: capitalize;
 }
 
-.team-list {
+.team-item {
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
@@ -169,8 +177,8 @@ button:focus {
   color: #434455;
 }
 
-/*Section 4 - Portfolio section*/
-.portfolio {
+/*==================Section 4 - Portfolio=======================*/
+.portfolio-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
@@ -188,6 +196,14 @@ button:focus {
   color: #2e2f42;
 }
 
+.portfolio-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
 .portfolio-text {
   font-weight: 400;
   font-size: 16px;
@@ -196,7 +212,7 @@ button:focus {
   color: #434455;
 }
 
-/*Footer section*/
+/*=========================Footer==================================*/
 .footer {
   width: 1440px;
   height: 312px;
